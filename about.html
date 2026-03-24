@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Our Coffee</title>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="about-page">
+
+<header>
+<nav>
+  <h2>Coffee House</h2>
+
+  <button class="menu-toggle">☰</button>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<section class="about">
+
+<div class="about-header">
+<h1>About Our Coffee</h1>
+<p>Brewing passion in every cup</p>
+</div>
+
+<div class="about-content">
+
+<div class="about-text">
+<p>
+Our coffee journey began with a simple idea — to bring people together
+through the love of great coffee.
+</p>
+
+<p>
+Every cup we serve is crafted with passion and precision.
+</p>
+
+</div>
+
+<div class="about-image">
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Coffee">
+</div>
+
+</div>
+
+<div class="mission">
+<h2>Our Mission</h2>
+
+<ul class="custom-list">
+  <li>Serve high-quality coffee</li>
+  <li>Create a welcoming space</li>
+  <li>Bring people together</li>
+</ul>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Coffee House | All Rights Reserved</p>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav-links');
+
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('active');
+    });
+  }
+</script>
+
+</body>
+</html>

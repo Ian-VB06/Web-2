@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee House</title>
+
+<link rel="stylesheet" href="styles.css">   
+
+</head>
+<body class="home-page">
+
+<header>
+<nav>
+  <h2>Coffee House</h2>
+
+  <button class="menu-toggle">☰</button>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<div class="hero">
+<div>
+<h1>Welcome to The Coffee House</h1>
+<p>Where Every Cup Feels Like Home</p>
+</div>
+</div>
+
+<script>
+    document.querySelector('.menu-toggle')
+      .addEventListener('click', () => {
+        document.querySelector('.nav-links')
+          .classList.toggle('active');
+      });
+  </script>
+
+<footer>
+<p>© 2026 Coffee House | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
